@@ -34,3 +34,7 @@ Change to root: `sudo su -`
 
 ##### To run pods on master:
 `kubectl taint nodes --all dedicated-`
+
+---
+To connect using kubectl from other computer:
+Copy the `admin.conf` file found at `/etc/kubernetes/admin.conf` at the master node
